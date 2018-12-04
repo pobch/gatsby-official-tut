@@ -1,0 +1,25 @@
+.user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.avatar {
+    flex: 0 0 96px;
+    width: 96px;
+    margin: 0;
+}
+
+.description {
+    flex: 1;
+    margin-left: 18px;
+}
+
+.username {
+    margin: 0 0 12px 0;
+    padding: 0;
+}
+
+.excerpt {
+    margin: 0;
+}
