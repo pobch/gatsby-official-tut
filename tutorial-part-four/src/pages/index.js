@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from 'gatsby'
-import { css } from 'emotion'
+import { css } from '@emotion/core'
 import { rhythm } from '../utils/typography'
 import Layout from '../components/layout'
 
@@ -10,7 +10,7 @@ export default ({data }) => {
     <Layout>
       <div>
         <h1
-          className={css`
+          css={css`
             display: inline-block;
             border-bottom: 1px solid;
           `}
@@ -22,13 +22,13 @@ export default ({data }) => {
           return (
             <div key={node.id}>
               <h3
-                className={css`
+                css={css`
                   margin-bottom: ${rhythm(1/4)};
                 `}
               >
                 {node.frontmatter.title}{' '}
                 <span
-                  className={css`
+                  css={css`
                     color: #bbb;
                   `}
                 >
